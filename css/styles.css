@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto";
+  background-color: #16a085;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: #aaaaaa;
+}
+
+.wheels {
+  width: 530px;
+  height: 583px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 40px 50px;
+  background-image: url(/img/bicycle.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* button {
+  border-color: transparent;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  size: 400px;
+  font-size: 19px;
+} */
+
+.wheels__account {
+  display: flex;
+  align-items: center;
+}
+
+.wheels__account h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.wheels__account img {
+  margin-left: auto;
+  border: 1px solid #e7e7e7;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.wheels__account img:hover {
+  box-shadow: 0 2px 20px 1px grey;
+}
+
+/* input {
+  width: 50px;
+  background-color: transparent;
+  border-color: transparent;
+} */
+
+label {
+  color: #73675d;
+}
+.wheels__bicke,
+.wheels__bicke-add {
+  margin: 22px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wheels__total {
+  display: flex;
+  justify-content: space-between;
+}
